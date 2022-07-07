@@ -1,4 +1,15 @@
-/* Your custom styles */
-.bg-head {
-    background-image: linear-gradient(to right, #ce9ffc, #7367f0);
+.navbar {
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #9da4b1 !important;
+        opacity: 0.5;
+        position: static;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #9da4b1 !important;
 }
