@@ -2,6 +2,14 @@
     background-color: transparent;
 }
 
+.navbar-brand{
+    font-weight: bold;
+}
+.welcome{
+    font-weight: bold;
+    color: black;
+}
+
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #9da4b1 !important;
