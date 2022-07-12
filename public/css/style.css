@@ -1,23 +1,21 @@
-.navbar {
-    background-color: transparent;
+.top-nav-collapse {
+    background-color: #9da4b1 !important;
 }
-
-.navbar-brand{
-    font-weight: bold;
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
 }
-.welcome{
-    font-weight: bold;
-    color: black;
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #9da4b1 !important;
-        opacity: 0.5;
-        position: static;
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #9da4b1 !important;
     }
 }
 
-.top-nav-collapse {
-    background-color: #9da4b1 !important;
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #9da4b1 !important;
+    }
+}
+
+footer.page-footer {
+    background-color: #9da4b1;
 }
