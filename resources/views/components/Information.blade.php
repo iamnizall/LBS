@@ -1,6 +1,8 @@
 <html>
-    <div class="container">
+
+    <div class="container" style="background-size:contain;background-image:url(https://goindonesiatour.id/wp-content/uploads/2018/08/indonesia-map1.jpg)">
         <h2 class="welcome">
+            <hr>
             WELCOME TO BANTUL...
         </h2>
         <b> <p style="text-indent: 45px; text-align:justify">
