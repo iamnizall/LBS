@@ -20,6 +20,9 @@
             <section>
                 @include('./components/Generate')
             </section>
+            <section>
+                @include('./components/Information')
+            </section>
         </main>
 
         <script src="js/jquery-3.4.1.min.js"></script>
