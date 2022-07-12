@@ -3,12 +3,12 @@
         <button class="btn btn-primary"> <i class="fas fa-search"></i> My Location</button>
     </div>
     <div class="row">
-        <div class="col-md-7 mt-3">
+        <div class="col-md-8 mt-3">
             <div class="card">
                 <div id="googleMap" style="width:100%;height:400px;"></div>
             </div>
         </div>
-        <div class="col-md-5 mt-3">
+        <div class="col-md-4 mt-3">
             <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     Pantai Parangtritis

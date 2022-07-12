@@ -24,6 +24,9 @@
             <section>
                 @include('./components/Information')
             </section>
+            <section>
+                @include('./components/Footer')
+            </section>
         </main>
 
         <script src="js/jquery-3.4.1.min.js"></script>
