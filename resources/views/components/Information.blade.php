@@ -3,9 +3,9 @@
     <div class="container" style="background-size:contain;background-image:url(https://goindonesiatour.id/wp-content/uploads/2018/08/indonesia-map1.jpg)">
         <h2 class="welcome">
             <hr>
-            WELCOME TO BANTUL...
+            WELCOME TO BANTUL
         </h2>
-        <b> <p style="text-indent: 45px; text-align:justify">
+        <p style="text-indent: 45px; text-align:justify">
             ipsum dolor sit amet consectetur adipisicing elit. Incidunt, corporis maxime? Vitae quae numquam, deleniti quia voluptate non vel error pariatur culpa ipsa, labore ut blanditiis deserunt cupiditate eius dolor! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis odio iure, libero nulla numquam nesciunt eligendi? Nulla, numquam iure aliquid recusandae atque impedit ducimus eum ipsam fugiat, enim, nemo asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem dolore id distinctio, alias repellendus natus saepe maxime accusamus suscipit labore necessitatibus in ullam commodi veritatis cumque, quam culpa molestiae.
         </p>
         <br>

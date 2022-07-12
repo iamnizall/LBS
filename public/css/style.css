@@ -7,7 +7,7 @@
 }
 .welcome{
     font-weight: bold;
-    color: black;
+    color: #264d00;
 }
 
 @media only screen and (max-width: 768px) {
