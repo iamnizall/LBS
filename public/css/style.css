@@ -1,3 +1,23 @@
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.welcome {
+    font-weight: bold;
+    color: #264d00;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #9da4b1 !important;
+        opacity: 0.5;
+        position: static;
+    }
+}
+
 .top-nav-collapse {
     background-color: #9da4b1 !important;
 }
