@@ -63,7 +63,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(242, 242, 242); color: #333333">
       © 2020 Copyright:
-      <a class="text-black"href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <a class="text-black"href="#">UTY Computer Enginering Team</a>
     </div>
     <!-- Copyright -->
   </footer>

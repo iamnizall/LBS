@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/gallery', function () {
 return view('components/gallery');
 });
+Route::get('/home', function () {
+return view('index');
+});
