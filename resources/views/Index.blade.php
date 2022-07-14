@@ -14,7 +14,6 @@
 </head>
 
 <body style="background-color: white ">
-    <header>
         @include('./components/Navbar')
 
         <main>

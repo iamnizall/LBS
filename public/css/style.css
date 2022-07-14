@@ -13,7 +13,7 @@
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #9da4b1 !important;
-        opacity: 0.5;
+        opacity: 1;
         position: static;
     }
 }
@@ -39,3 +39,7 @@
 footer.page-footer {
     background-color: #9da4b1;
 }
+
+.row {
+    margin: 15px;
+  }
