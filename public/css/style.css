@@ -10,29 +10,50 @@
     color: #748c08;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 668px) {
     .navbar {
-        background-color: #9da4b1 !important;
-        opacity: 0.5;
-        position: static;
+        background-color: rgba(225, 225, 225, 0.5);
+        backdrop-filter: blur(5px);
     }
 }
 
 .top-nav-collapse {
-    background-color: #9da4b1 !important;
+    background-color: rgba(225, 225, 225, 0.5);
+    backdrop-filter: blur(5px);
 }
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 668px) {
     .navbar:not(.top-nav-collapse) {
-        background: #9da4b1 !important;
+        background-color: rgba(225, 225, 225, 0.5);
+        backdrop-filter: blur(5px);
     }
 }
 
-@media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #9da4b1 !important;
+.bg-t {
+    color: black;
+    font-family: Georgia, serif;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link,
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    font-family: Georgia, serif;
+    color: black;
+}
+
+#intro {
+    background-image: url("/img/jogja.webp");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Height for devices larger than 576px */
+@media (max-width: 992px) {
+    #intro {
+        height: 80vh;
+        margin-top: -58.59px;
     }
 }
 

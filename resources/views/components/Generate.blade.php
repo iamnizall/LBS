@@ -52,6 +52,11 @@
           [{ lat: position.coords.latitude, lng: position.coords.longitude }, "Posisi Sekarang"],
           [{ lat: -7.782984, lng: 110.367035 }, "Tugu Yogyakkarta"],
           [{ lat: -7.750026, lng: 110.402501 }, "Jogja Amazon Green"],
+          [{ lat: -7.800330, lng: 110.365970 }, "Benteng Vredeburg"],
+          [{ lat: -7.810360 , lng:  110.468620 }, "Candi Abang"],
+          [{ lat: -7.777930, lng: 110.493970  }, "Candi Banyunibo"],
+          [{ lat:  -7.733529, lng: 110.329394  }, "Cagar Budaya Cebong"],
+          [{ lat: -7.750290, lng: 110.369520  }, "Monumen Yogya Kembali"],
         ];
 
         let pos = position.coords;
