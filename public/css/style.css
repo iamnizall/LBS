@@ -60,3 +60,7 @@
 footer.page-footer {
     background-color: #9da4b1;
 }
+
+.row {
+    margin: 15px;
+}
