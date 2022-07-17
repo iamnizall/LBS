@@ -14,7 +14,7 @@
                     <a class="nav-link" href="gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="contactus">Contact Us</a>
                 </li>
             </ul>
         </div>
