@@ -1,14 +1,16 @@
 @extends('index')
 @section('content')
 <div id="intro" class="bg-image shadow-2-strong">
-
+  <div class="text-center">
+    <button class="btn btn-primary focus" style="margin-top: 50vh">
+      <i class="fas fa-search"></i> Lokasi saya
+    </button>
+  </div>
 </div>
 
 <div class="container mb-3">
   <div class="text-center mt-3">
-    <button class="btn btn-primary focus">
-      <i class="fas fa-search"></i> Lokasi saya
-    </button>
+
     <div class="alert alert-success" hidden>
       <h5>
         <b id="kota"> Yogyakarta </b>
@@ -27,6 +29,9 @@
     </div>
   </div>
 </div>
+
+@include('./components/Information')
+
 
 @push('script')
 

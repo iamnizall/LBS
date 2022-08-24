@@ -19,9 +19,6 @@
     <main>
         @yield('content')
         <section>
-            @include('./components/Information')
-        </section>
-        <section>
             @include('./components/Footer')
         </section>
     </main>
