@@ -20,8 +20,6 @@
         </div>
     </nav>
 
-    <div id="intro" class="bg-image shadow-2-strong">
 
-    </div>
 
 </header>

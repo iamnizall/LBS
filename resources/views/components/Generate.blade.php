@@ -1,5 +1,9 @@
 @extends('index')
 @section('content')
+<div id="intro" class="bg-image shadow-2-strong">
+
+</div>
+
 <div class="container mb-3">
   <div class="text-center mt-3">
     <button class="btn btn-primary focus">
