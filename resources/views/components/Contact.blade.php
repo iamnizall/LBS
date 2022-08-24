@@ -11,8 +11,6 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis, fugit natus?</p>
 
               <p><img src="img/undraw-contact.svg" alt="Image" class="img-fluid"></p>
-
-
             </div>
             <div class="col-md-6">
               

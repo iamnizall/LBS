@@ -1,16 +1,20 @@
 @extends('index')
 @section('content')
-<div id="intro" class="bg-image shadow-2-strong">
-  <div class="text-center">
-    <button class="btn btn-primary focus" style="margin-top: 50vh">
-      <i class="fas fa-search"></i> Lokasi saya
-    </button>
+<div class="row mt-5 ml-4" >  
+  <div class="col-md-8" id="bg">
+    {{-- <img src="/img/grup.svg" class="img-fluid" alt="..."> --}}
+  </div>
+  <div class="col-md-4">
+    <h3>Tour Guide Kabupaten Bantul</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, itaque!</p>
   </div>
 </div>
 
 <div class="container mb-3">
-  <div class="text-center mt-3">
-
+  <div class="text-center">
+    <button class="btn btn-primary focus" style="margin-top: 10vh">
+      <i class="fas fa-search"></i> Lokasi saya
+    </button>
     <div class="alert alert-success" hidden>
       <h5>
         <b id="kota"> Yogyakarta </b>

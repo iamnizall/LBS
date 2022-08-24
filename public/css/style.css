@@ -42,11 +42,13 @@
     color: black;
 }
 
-#intro {
-    background-image: url("/img/jogja.webp");
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
+#bg{
+    padding-top:30vh;
+    background: url('/img/grup.svg');
+    background-size:95%;
+    background-repeat:no-repeat;
+    height:500px;
+
 }
 
 /* Height for devices larger than 576px */
