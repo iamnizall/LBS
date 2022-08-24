@@ -1,31 +1,33 @@
+@extends('index')
+@section('content')
 <div class="container mb-3">
-    <div class="text-center mt-3">
-        <button class="btn btn-primary focus">
-            <i class="fas fa-search"></i> Lokasi saya
-        </button>
-        <div class="alert alert-success" hidden>
-            <h5>
-                <b id="kota"> Yogyakarta </b>
-            </h5>
-        </div>
+  <div class="text-center mt-3">
+    <button class="btn btn-primary focus">
+      <i class="fas fa-search"></i> Lokasi saya
+    </button>
+    <div class="alert alert-success" hidden>
+      <h5>
+        <b id="kota"> Yogyakarta </b>
+      </h5>
     </div>
-    <div class="row">
-        <div class="col-lg-8 mt-3">
-            <div class="card">
-                <div id="app" style="width: 100%; height: 400px"></div>
-            </div>
-        </div>
-        <div class="col-lg-4 mt-3">
-            <ul class="list-group" id="list">
-            </ul>
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 mt-3">
+      <div class="card">
+        <div id="app" style="width: 100%; height: 400px"></div>
+      </div>
     </div>
+    <div class="col-lg-4 mt-3">
+      <ul class="list-group" id="list">
+      </ul>
+    </div>
+  </div>
 </div>
 
 @push('script')
 
 <script>
-    function lokasiWisata(){
+  function lokasiWisata(){
         let data = [
             { tempatWisata : 'Pantai Parangtritis', jarak : 1.4},
             { tempatWisata : 'Pantai Parangkusumo', jarak : 2.3},
@@ -44,7 +46,7 @@
 </script>
 
 <script>
-    $(".focus").click(() => {
+  $(".focus").click(() => {
         $(".focus").html("...");
 
       navigator.geolocation.getCurrentPosition((position) => {
@@ -118,3 +120,4 @@
 <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap"></script>
 
 @endpush
+@endsection

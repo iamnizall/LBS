@@ -24,4 +24,9 @@ Route::prefix('v1')->group(function () {
     Route::get('/destinasi', [MainController::class, 'caridestinasi']);
     Route::get('/foto', [MainController::class, 'carifoto']);
     Route::get('/pemandu', [MainController::class, 'caripemandu']);
+
+    Route::post('/lokasi', [MainController::class, 'storelokasi']);
+    Route::post('/destinasi', [MainController::class, 'storedestinasi']);
+    Route::post('/foto', [MainController::class, 'storefoto']);
+    Route::post('/pemandu', [MainController::class, 'storepemandu']);
 });

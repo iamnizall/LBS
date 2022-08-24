@@ -14,28 +14,26 @@
 </head>
 
 <body style="background-color: white ">
-        @include('./components/Navbar')
+    @include('./components/Navbar')
 
-        <main>
-            <section>
-                @include('./components/Generate')
-            </section>
-            <section>
-                @include('./components/Information')
-            </section>
-            <section>
-                @include('./components/Footer')
-            </section>
-        </main>
+    <main>
+        @yield('content')
+        <section>
+            @include('./components/Information')
+        </section>
+        <section>
+            @include('./components/Footer')
+        </section>
+    </main>
 
-        <script src="js/jquery.min.js"></script>
-        <!-- Bootstrap tooltips -->
-        <script type="text/javascript" src="js/popper.min.js"></script>
-        <!-- Bootstrap core JavaScript -->
-        <script type="text/javascript" src="js/bootstrap.js"></script>
-        <!-- MDB core JavaScript -->
-        <script type="text/javascript" src="js/mdb.min.js"></script>
-        @stack('script')
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    @stack('script')
 </body>
 
 </html>
