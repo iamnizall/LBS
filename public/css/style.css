@@ -42,15 +42,6 @@
     color: black;
 }
 
-#bg{
-    padding-top:30vh;
-    background: url('/img/grup.svg');
-    background-size:95%;
-    background-repeat:no-repeat;
-    height:500px;
-
-}
-
 /* Height for devices larger than 576px */
 @media (max-width: 992px) {
     #intro {

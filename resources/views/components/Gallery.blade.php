@@ -5,24 +5,24 @@
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Gallery Bantul</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                <p class="text-center">Selamat datang di galeri Kabupaten Bantul. Berikut merupakan dokumentasi dari beberapa destinasi wisata yang berada di Kabupaten Bantul  . </p>
             </div>
             <div class="row photos">
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/1.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/pantai_parangkusumo.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/pantai_parangkusumo.jpg"></a></div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/13.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/13.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/goa_jepang.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/goa_jepang.jpg"></a></div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/3.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/3.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/hutan_pinus_pengger.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/hutan_pinus_pengger.jpg"></a></div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/8.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/8.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/situs_cempuri.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/situs_cempuri.jpg"></a></div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/16.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/16.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/air_terjun_pucung.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/air_terjun_pucung.jpg"></a></div>
                 
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/6.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/6.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/gumuk_pasir_parangkusumo.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/gumuk_pasir_parangkusumo.jpg"></a></div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/12.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/12.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/taman_kuliner_imogiri.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/taman_kuliner_imogiri.jpg"></a></div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/7.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/7.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="img/puncak_soka.jpg" data-lightbox="photos"><img class="img-fluid rounded" src="img/puncak_soka.jpg"></a></div>
             </div>
         </div>
     </div>
