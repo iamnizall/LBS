@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\PostController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -30,3 +31,5 @@ Route::prefix('v1')->group(function () {
     Route::post('/foto', [MainController::class, 'storefoto']);
     Route::post('/pemandu', [MainController::class, 'storepemandu']);
 });
+
+Route::post('/post', [PostController::class, 'post']);
