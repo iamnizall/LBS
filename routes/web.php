@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,9 @@ Route::get('/welcome', function () {
 Route::get('/gallery', function () {
     return view('components/gallery');
 });
-Route::get('/contactus', function () {
-    return view('components/Contact');
-});
+// Route::get('/email', function () {
+// return view('components/email');
+// });
+
+Route::get('/email',[ContactController::class, 'index']);
+Route::post('send', [ContactController::class, 'send'])->name('email.send');

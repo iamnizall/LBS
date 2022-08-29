@@ -40,7 +40,6 @@
           <a
             class="btn btn-outline-light btn-lg m-2 text-white"
             href="#"
-            target="#"
             role="button"
           >Get Started</a
           >
