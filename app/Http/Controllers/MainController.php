@@ -7,6 +7,7 @@ use App\Models\Foto;
 use App\Models\Lokasi;
 use App\Models\Pemandu;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
@@ -17,8 +18,8 @@ class MainController extends Controller
 
     public function carilokasi()
     {
-        $data = Lokasi::orderBy('kota')->get();
-
+        $data = DB::table('destinasis')
+            ->join('lokasis', 'destinasis.id', '=', 'lokasis.id_destinasi')->get();
         return response()->json([
             'success' => true,
             'data' => $data
@@ -67,15 +68,21 @@ class MainController extends Controller
             'id_foto' => 1,
         ]);
 
+        if ($data) {
+
+            return response()->json([
+                'success' => true,
+                'data' => $data
+            ]);
+        }
         return response()->json([
-            'success' => true,
-            'data' => $data
+            'success' => false,
         ]);
     }
 
     public function storelokasi(Request $request)
     {
-        $data = Destinasi::create([
+        $data = Lokasi::create([
             'alamat' => $request->alamat,
             'jalan' => $request->jalan,
             'desa' => $request->desa,
@@ -87,15 +94,21 @@ class MainController extends Controller
             'id_destinasi' => $request->id_destinasi,
         ]);
 
+        if ($data) {
+
+            return response()->json([
+                'success' => true,
+                'data' => $data
+            ]);
+        }
         return response()->json([
-            'success' => true,
-            'data' => $data
+            'success' => false,
         ]);
     }
 
     public function storepemandu(Request $request)
     {
-        $data = Destinasi::create([
+        $data = Pemandu::create([
             'no_lisensi' => $request->no_lisensi,
             'no_ktan' => $request->no_ktan,
             'nama' => $request->nama,
@@ -117,7 +130,7 @@ class MainController extends Controller
 
     public function storefoto(Request $request)
     {
-        $data = Destinasi::create([
+        $data = Foto::create([
             'foto' => $request->foto,
         ]);
         return response()->json([
