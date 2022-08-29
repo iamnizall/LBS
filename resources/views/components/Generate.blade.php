@@ -1,6 +1,6 @@
 @extends('index')
 @section('content')
-{{-- <div class="row mt-5 ml-4" >  
+{{-- <div class="row mt-5 ml-4">
   <div class="col-md-8" id="bg">
   </div>
   <div class="col-md-4">
@@ -27,15 +27,13 @@
   </style>
 
   <!-- Background image -->
-  <div
-    id="intro-example"
-    class="p-5 text-center bg-image"
-    style="background-image: url('https://images.unsplash.com/photo-1586976162525-ebd13753bfbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80');background-repeat: no-repeat; background-size: cover"
-  >
+  <div id="intro-example" class="p-5 text-center bg-image"
+    style="background-image: url('https://images.unsplash.com/photo-1586976162525-ebd13753bfbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80');background-repeat: no-repeat; background-size: cover">
     <div class="mask">
       <div class="d-flex justify-content-center align-items-center h-100">
         <div class="text-white">
           <h1 class="mb-3 mt-5 text-white">Mari Berkunjung Ke Bantul</h1>
+<<<<<<< HEAD
           <p class="mb-4 text-white">Jelajahi indahnya Kabupaten Bantu. Cari beragam spot wisata, kuliner <br/> dan pengalaman liburan yang menyenangkan disini!</p>
           <a
             class="btn btn-outline-light btn-lg m-2 text-white"
@@ -43,6 +41,11 @@
             role="button"
           >Get Started</a
           >
+=======
+          <p class="mb-4 text-white">Jelajahi indahnya Kabupaten Bantu. Cari beragam spot wisata, kuliner <br /> dan
+            pengalaman liburan yang menyenangkan disini!</p>
+          <a class="btn btn-outline-light btn-lg m-2 text-white" href="#" target="#" role="button">Get Started</a>
+>>>>>>> dfc2876bbc001a1bad13ffb93918442149af0814
         </div>
       </div>
     </div>
