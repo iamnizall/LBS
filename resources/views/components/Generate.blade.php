@@ -9,8 +9,14 @@
 </div>
 
 <div class="container mb-3">
+  <div class="card mt-2">
+    <div class="card-body">
+      <form>
+        <input type="text" class="form-control">
+      </form>
+    </div>
+  </div>
   <div class="text-center mt-3">
-
     <div class="alert alert-success" hidden>
       <h5>
         <b id="kota"> Yogyakarta </b>
