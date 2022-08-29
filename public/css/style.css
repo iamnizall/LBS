@@ -42,13 +42,6 @@
     color: black;
 }
 
-#intro {
-    background-image: url("/img/jogja.webp");
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-}
-
 /* Height for devices larger than 576px */
 @media (max-width: 992px) {
     #intro {
