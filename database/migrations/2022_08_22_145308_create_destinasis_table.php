@@ -15,10 +15,11 @@ return new class extends Migration
     {
         Schema::create('destinasis', function (Blueprint $table) {
             $table->id();
-            $table->string('map');
             $table->string('nama');
             $table->string('harga');
             $table->string('detail');
+            $table->string('link_detail');
+            $table->string('map');
             $table->string('id_foto');
             $table->timestamps();
         });

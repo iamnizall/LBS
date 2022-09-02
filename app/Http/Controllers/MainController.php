@@ -64,6 +64,7 @@ class MainController extends Controller
             'map' => 'map',
             'nama' => $request->nama,
             'harga' => $request->harga,
+            'link_detail' => $request->link_detail,
             'detail' => $request->detail,
             'id_foto' => 1,
         ]);
