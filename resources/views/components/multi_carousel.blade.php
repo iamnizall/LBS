@@ -28,13 +28,13 @@
                     <img src="img/carousel/8.jpg" class="img-fluid mx-auto d-block" alt="img8">
                 </a>
             </div>
-            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+            <a class="carousel-control-prev" style="position: absolute" href="#carousel-example" role="button" data-slide="prev">
+               <h1><i class="fas fa-chevron-left text-white"></i></h1>
+               
             </a>
             <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <h1><i class="fas fa-chevron-right text-white"></i></h1>
+                
             </a>
         </div>
     </div>

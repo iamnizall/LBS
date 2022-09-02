@@ -30,7 +30,7 @@
             <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">
                     <h1 class="mb-3 mt-5 text-white">
-                        Mari Berkunjung Ke Bantul
+                        Yuk Wisata Ke Bantul
                     </h1>
                     <p class="mb-4 text-white">
                         Jelajahi indahnya Kabupaten Bantu. Cari beragam spot
