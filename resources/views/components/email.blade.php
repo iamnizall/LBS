@@ -8,7 +8,7 @@
                     <div class="col-md-6">
 
                         <h3 class="heading mb-4">Let's talk about everything!</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas debitis, fugit natus?</p>
+                        <p>Jika kamu punya pertanyaann, permintaan kerjasama dan review, jangan ragu hubungi kami!</p>
 
                         <p><img src="img/undraw-contact.svg" alt="Image" class="img-fluid"></p>
                     </div>
@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <button type="submit" class="btn btn-success ml-3">Send Email</button>
+                                <button type="submit" class="btn btn-success ml-3">Submit</button>
                             </div>
                         </form>
 
