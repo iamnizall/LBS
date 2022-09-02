@@ -24,9 +24,12 @@ Route::get('/gallery', function () {
     return view('components/gallery');
 });
 Route::get('/detail', function () {
-return view('components/detail-page');
+    return view('components/detail-page');
+});
+Route::get('/form', function () {
+    return view('components/form');
 });
 
 
-Route::get('/email',[ContactController::class, 'index']);
+Route::get('/email', [ContactController::class, 'index']);
 Route::post('send', [ContactController::class, 'send'])->name('email.send');
