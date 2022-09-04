@@ -110,15 +110,16 @@ class MainController extends Controller
     public function storepemandu(Request $request)
     {
         $data = Pemandu::create([
-            'no_lisensi' => $request->no_lisensi,
-            'no_ktan' => $request->no_ktan,
+            'lisensi' => $request->lisensi,
+            'ktan' => $request->ktan,
             'nama' => $request->nama,
             'bahasa' => $request->bahasa,
             'ttl' => $request->ttl,
             'alamat' => $request->alamat,
             'pendidikan' => $request->pendidikan,
-            'no_telp' => $request->no_telp,
+            'telp' => $request->telp,
             'email' => $request->email,
+            'tempat' => $request->tempat,
             'jabatan' => $request->jabatan,
             'sertifikasi' => $request->sertifikasi,
         ]);
