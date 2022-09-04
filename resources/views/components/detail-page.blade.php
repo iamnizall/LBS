@@ -1,70 +1,37 @@
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Material Design Bootstrap -->
-<link rel="stylesheet" href="css/mdb.min.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/detail-page.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Detail Page</title>
+</head>
+<body>
 
-<section>
-    <div class="fluid-container py-5">
-        <div class="row justify-content-center mb-3">
-            <div class="col-md-12 col-xl-12">
-                <div class="card shadow-0 border rounded-3">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-6 col-xl-6 mb-4 mb-lg-0">
-                                <div class="bg-image hover-zoom ripple rounded ripple-surface">
-                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
-                                        class="w-100" />
-                                    <a href="#!">
-                                        <div class="hover-overlay">
-                                            <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-6 col-xl-6">
-                                <h5>Nama Destinasi Wisata</h5>
-                                <div class="d-flex flex-row">
-                                    <div class="text-danger mb-1 me-2">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <span>310</span>
-                                </div>
-
-                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                                    itaque earum deleniti consequuntur obcaecati magnam. Temporibus magni quaerat vitae
-                                    ad hic pariatur ipsam optio in, qui expedita fugiat excepturi aliquam architecto eos
-                                    repudiandae necessitatibus nisi, velit illo doloribus quos. Nihil omnis placeat
-                                    aliquid fugit quisquam tenetur dolores quasi necessitatibus, provident recusandae
-                                    eaque. Aliquam dolore porro est eos facere aperiam et facilis dolorum natus
-                                    reprehenderit saepe vel commodi labore maiores aspernatur sit delectus modi
-                                    doloremque sequi voluptatibus provident, debitis expedita. Quos laborum velit
-                                    dolorum consequuntur reprehenderit nisi dignissimos cumque labore qui temporibus,
-                                    repudiandae possimus aperiam quod perferendis dolor sequi voluptates totam
-                                    necessitatibus nihil doloremque! Ipsam quidem quia, veniam, illum, ad libero totam
-                                    laboriosam ab in odit quis minima molestiae. Minima libero repellendus odio
-                                    provident accusantium ullam quaerat a adipisci quas, modi iusto velit itaque
-                                    distinctio fuga, in officia. Delectus cumque in eaque velit inventore et at iure
-                                    mollitia, voluptas, vero sed!</p>
-                            </div>
-                            <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-                                <div class="d-flex flex-row align-items-center mb-1">
-                                    <h4 class="mb-1 me-1">Rp. 450.000</h4>
-                                    <span class="text-danger"><s>Rp. 500.000</s></span>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <button class="btn btn-primary btn-sm" type="button">Order</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+    <div class="card mb-3 mt-3">
+        <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="card-img-top" alt="Wild Landscape"/>
+        <div class="card-body">
+          <h5 class="card-title">Nama Destinasi Wisata</h5>
+          <div class="text-danger mb-1 me-2">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
         </div>
+          <p class="card-text text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum distinctio aut odio? Est, ipsum nisi sed quos distinctio eos commodi expedita dolorem, voluptas esse mollitia amet illo rem placeat atque dignissimos. Porro vel odio, dolore est quos ipsa? Libero est velit aperiam fugit mollitia unde ab laudantium architecto illo commodi? Iusto tenetur delectus hic. Quasi ex quibusdam officiis temporibus! Soluta enim obcaecati incidunt necessitatibus tempora, accusantium adipisci cum a quod eaque vel blanditiis maiores fugiat alias fugit sequi iste cupiditate dicta maxime beatae, consequuntur quaerat qui? Dolor, officiis recusandae? Necessitatibus non mollitia velit! Architecto officiis beatae nihil atque distinctio consequuntur unde voluptates commodi dolor consectetur perferendis, nisi blanditiis sapiente nesciunt amet autem, suscipit impedit harum tempore quo omnis cupiditate! Beatae, veniam eos. Beatae nobis quaerat nisi facilis repudiandae? Sed, nisi officiis! Asperiores laudantium eos dicta odit quibusdam necessitatibus, provident reiciendis voluptates repellendus accusantium explicabo vitae perferendis facere delectus. Voluptatem, perferendis!
+          </p>
+          <button class="btn btn-success rounded-lg font-weight-bold p-2"><i class="fas fa-shopping-bag"></i> Pesan</button>
+          <button class="btn btn-blue rounded-lg font-weight-bold p-2"><i class="fas fa-map-marker-alt"></i> Lihat Rute</button>
+        </div>
+      </div>
     </div>
-</section>
+    
+</body>
+</html>
