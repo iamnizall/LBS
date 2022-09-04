@@ -10,82 +10,39 @@
                 <div class="card-body">
                     <form id="lokasi">
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="alamat"
-                                type="text"
-                                id="lok_alamat"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="alamat" type="text" id="lok_alamat"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="jalan"
-                                type="text"
-                                id="lok_jalan"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="jalan" type="text" id="lok_jalan"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="desa"
-                                type="text"
-                                id="lok_desa"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="desa" type="text" id="lok_desa"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="kecamatan"
-                                type="text"
-                                id="lok_kecamatan"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="kecamatan" type="text" id="lok_kecamatan"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="kota"
-                                type="text"
-                                id="lok_kota"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="kota" type="text" id="lok_kota"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="provinsi"
-                                type="text"
-                                id="lok_provinsi"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="provinsi" type="text" id="lok_provinsi"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="latitude"
-                                type="text"
-                                id="lok_lat"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="latitude" type="text" id="lok_lat"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="longitude"
-                                type="text"
-                                id="lok_long"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="longitude" type="text" id="lok_long"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <select
-                                id="id_destinasi"
-                                class="form-control"
-                            ></select>
+                            <select id="id_destinasi" class="form-control"></select>
                         </div>
                         <button class="btn btn-danger btn-sm">submit</button>
                     </form>
@@ -100,40 +57,19 @@
                 <div class="card-body">
                     <form id="destinasi">
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="nama destinasi"
-                                type="text"
-                                id="des_nama"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="nama destinasi" type="text" id="des_nama"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="harga tiket"
-                                type="text"
-                                id="des_harga"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="harga tiket" type="text" id="des_harga"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="detail"
-                                type="text"
-                                id="des_detail"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="detail" type="text" id="des_detail"
+                                autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input
-                                class="form-control"
-                                placeholder="link detail"
-                                type="text"
-                                id="des_link"
-                                autocomplete="off"
-                            />
+                            <input class="form-control" placeholder="link" type="text" id="map" autocomplete="off" />
                         </div>
                         <button class="btn btn-danger btn-sm">submit</button>
                     </form>
@@ -206,7 +142,7 @@
             let nama = $("#des_nama").val();
             let harga = $("#des_harga").val();
             let detail = $("#des_detail").val();
-            let link_detail = $("#des_link").val();
+            let map = $("#map").val();
 
             $.post(
                 "/api/v1/destinasi",
@@ -214,7 +150,7 @@
                     nama,
                     harga,
                     detail,
-                    link_detail,
+                    map,
                 },
                 (res) => {
                     console.log("ok des");
@@ -222,7 +158,7 @@
                     $("#des_nama").val("");
                     $("#des_harga").val("");
                     $("#des_detail").val("");
-                    $("#des_link").val("");
+                    $("#map").val("");
                 }
             );
         });

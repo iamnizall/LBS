@@ -61,10 +61,10 @@ class MainController extends Controller
     public function storedestinasi(Request $request)
     {
         $data = Destinasi::create([
-            'map' => 'map',
+            'map' => $request->map,
             'nama' => $request->nama,
             'harga' => $request->harga,
-            'link_detail' => $request->link_detail,
+            'link_detail' => $request->nama,
             'detail' => $request->detail,
             'id_foto' => 1,
         ]);
