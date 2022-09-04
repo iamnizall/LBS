@@ -17,15 +17,11 @@
     </style>
 
     <!-- Background image -->
-    <div
-        id="intro-example"
-        class="p-5 text-center bg-image"
-        style="
+    <div id="intro-example" class="p-5 text-center bg-image" style="
             background-image: url('https://images.unsplash.com/photo-1586976162525-ebd13753bfbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80');
             background-repeat: no-repeat;
             background-size: cover;
-        "
-    >
+        ">
         <div class="mask">
             <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">
@@ -37,11 +33,7 @@
                         wisata, kuliner <br />
                         dan pengalaman liburan yang menyenangkan disini!
                     </p>
-                    <a
-                        class="btn btn-outline-light cari btn-lg m-2 text-white"
-                        role="button"
-                        >Mulai Wisata</a
-                    >
+                    <a class="btn btn-outline-light cari btn-lg m-2 text-white" role="button">Mulai Wisata</a>
                 </div>
             </div>
         </div>
@@ -95,7 +87,7 @@
                         6371 *
                         (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)))
                     ).toFixed(2);
-                    listTempat += `<li class="list-group-item d-flex justify-content-between align-items-center">${d.nama}<span class="badge badge-primary badge-pill">${x} km</span><a href="#" class="badge badge-primary"><i class="fas fa-location-arrow"></i> lihat rute</a></li>`;
+                    listTempat += `<li class="list-group-item d-flex justify-content-between align-items-center">${d.nama}<span class="badge badge-primary badge-pill">${x} km</span><a target="blank" href="https://www.google.com/" class="badge badge-primary"><i class="fas fa-location-arrow"></i> rute</a></li>`;
                 });
                 $("#list").html(listTempat);
             });
@@ -126,52 +118,52 @@
                 ],
                 [
                     {
-                        lat: -7.782984,
-                        lng: 110.367035,
+                        lat: -7.990636,
+                        lng: 110.342297,
                     },
-                    "Tugu Yogyakkarta",
+                    "Air Terjun Pucung",
                 ],
                 [
                     {
-                        lat: -7.750026,
-                        lng: 110.402501,
+                        lat: -8.0227688,
+                        lng: 110.324995,
                     },
-                    "Jogja Amazon Green",
+                    "Pantai Parangkusumo",
                 ],
                 [
                     {
-                        lat: -7.80033,
-                        lng: 110.36597,
+                        lat: -7.8313443,
+                        lng: 110.3989364,
                     },
-                    "Benteng Vredeburg",
+                    "Situs Benteng Cepuri",
                 ],
                 [
                     {
-                        lat: -7.81036,
-                        lng: 110.46862,
+                        lat: -8.01845,
+                        lng: 110.3195509,
                     },
-                    "Candi Abang",
+                    "Gumuk Pasir Parangkusumo",
                 ],
                 [
                     {
-                        lat: -7.77793,
-                        lng: 110.49397,
+                        lat: -7.8712041,
+                        lng: 110.4595144,
                     },
-                    "Candi Banyunibo",
+                    "Hutan Pinus Pengger",
                 ],
                 [
                     {
-                        lat: -7.733529,
-                        lng: 110.329394,
+                        lat: -7.7702503,
+                        lng: 110.1942105,
                     },
-                    "Cagar Budaya Cebong",
+                    "Puncak Saka",
                 ],
                 [
                     {
-                        lat: -7.75029,
-                        lng: 110.36952,
+                        lat: -7.923406,
+                        lng: 110.3843668,
                     },
-                    "Monumen Yogya Kembali",
+                    "Taman Kuliner Imogiri",
                 ],
             ];
 

@@ -29,6 +29,9 @@ Route::get('/detail', function () {
 Route::get('/form', function () {
     return view('components/form');
 });
+Route::get('/form-pemandu', function () {
+    return view('components/form-pemandu');
+});
 
 
 Route::get('/email', [ContactController::class, 'index']);
