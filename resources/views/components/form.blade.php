@@ -69,7 +69,8 @@
                                 autocomplete="off" />
                         </div>
                         <div class="mb-3">
-                            <input class="form-control" placeholder="link" type="text" id="map" autocomplete="off" />
+                            <input class="form-control" placeholder="link map" type="text" id="map"
+                                autocomplete="off" />
                         </div>
                         <button class="btn btn-danger btn-sm">submit</button>
                     </form>
