@@ -1,6 +1,6 @@
 @extends('index')
 @section('content')
-    {{-- <form action="{{ route('email.send') }}" method="post"> --}}
+
     <div class="container mt-5" style="padding-top: 20px">
         <div class="row justify-content-center">
             <div class="col-md-10">

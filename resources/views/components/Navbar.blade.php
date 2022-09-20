@@ -19,7 +19,4 @@
             </ul>
         </div>
     </nav>
-
-
-
 </header>

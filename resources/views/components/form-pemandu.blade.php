@@ -1,7 +1,7 @@
 @extends('index') @section('content')
 
-<div class="comtainer">
-    <div class="row">
+<div class="container">
+    <div class="row" style="margin-top: 10%">
         <div class="col-md-6">
             <div class="card">
                 <div class="card-header">Pemandu</div>
