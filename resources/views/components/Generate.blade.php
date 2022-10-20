@@ -61,7 +61,7 @@
     </div>
 </div>
 
-@include('./components/Information') @push('script')
+@include('./components/information') @push('script')
 
 <script>
     function lokasiWisata() {
@@ -87,7 +87,8 @@
                         6371 *
                         (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)))
                     ).toFixed(2);
-                    listTempat += `<li class="list-group-item d-flex justify-content-between align-items-center">${d.nama}<span class="badge badge-primary badge-pill">${x} km</span><a target="blank" href="https://www.google.com/" class="badge badge-primary"><i class="fas fa-location-arrow"></i> rute</a></li>`;
+                    // console.log(d);
+                    listTempat += `<li class="list-group-item d-flex justify-content-between align-items-center">${d.nama}<span class="badge badge-primary badge-pill">${x} km</span><a target="blank" href="${d.map}" class="badge badge-primary"><i class="fas fa-location-arrow"></i> rute</a></li>`;
                 });
                 $("#list").html(listTempat);
             });

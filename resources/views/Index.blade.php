@@ -28,12 +28,12 @@
 </head>
 
 <body style="background-color: white ">
-    @include('./components/Navbar')
+    @include('./components/navbar')
 
     <main>
         @yield('content')
         <section>
-            @include('./components/Footer')
+            @include('./components/footer')
         </section>
     </main>
 
